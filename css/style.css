@@ -1,0 +1,142 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+   font-family: 'Vidaloka', serif;
+}
+html, body{
+    height: 100%;
+}
+a:hover{text-decoration: none;}
+
+.styled-bg-1{
+   background-image: url(../img/1.jpg); 
+  
+
+}
+.footer-top-area {
+    background: #F4F4F4;
+    color: #777;
+    padding: 60px 0;
+    margin-top: 200px;
+}
+
+.footer-top-area h2 {
+    color: #000;
+    font-size: 33px;
+}
+
+.news-letter-form input[type=email] {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    width: 70%;
+}
+
+.news-letter-form input[type=email] {
+    border-bottom: 2px solid #ddd;
+}
+
+.news-letter-form button {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    color: #333;
+    float: right;
+    width: 25%;
+}
+
+.news-letter-form button {border-bottom: 2px solid #ddd;}
+
+.news-letter-form i.fa {
+    padding-left: 2px;
+}
+
+.news-letter-form {
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.footer-menu a {
+    padding-left: 30px;
+    color: #333;
+}
+
+.social-links a {
+    color: #333;
+    padding-left: 10px;
+}
+
+
+
+.footer-menu {
+    margin-top: 33px;
+    margin-bottom: 22px;
+}
+
+.copy-right-text {
+    margin-top: 33px;
+}
+
+
+
+.styled-bg-inner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+.footer-bottom-area .container {
+    position: relative;
+}
+
+.styled-bg {
+    height: 439px;
+    width: 382px;
+    position: absolute;
+    left: -206px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.footer-bottom-area .container {
+    position: relative;
+}
+
+.styled-bg:after {
+    position: absolute;
+    left: -180px;
+    top: 0;
+    bottom: -180px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #f4f4f4;
+    z-index: -1;
+}
